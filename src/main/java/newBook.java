@@ -23,7 +23,7 @@ public class newBook extends javax.swing.JFrame {
 
  
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+   
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -48,35 +48,35 @@ public class newBook extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel1.setText("book_id");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel2.setText("book_name");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel3.setText("publisher");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel4.setText("edition");
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel5.setText("genre");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel6.setText("price");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel7.setText("pages");
 
         jTextField1.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
         jTextField2.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
         jTextField3.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField3.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -84,19 +84,19 @@ public class newBook extends javax.swing.JFrame {
         });
 
         jTextField4.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
         jTextField5.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField5.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
         jTextField6.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField6.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
         jTextField7.setBackground(new java.awt.Color(255, 255, 204));
-        jTextField7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField7.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
 
         jButton1.setBackground(new java.awt.Color(153, 255, 153));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,7 +105,7 @@ public class newBook extends javax.swing.JFrame {
         });
 
         jButton2.setBackground(new java.awt.Color(255, 153, 153));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -197,9 +197,9 @@ public class newBook extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
        
         //public void bid_check() throws 
         
@@ -254,15 +254,15 @@ public class newBook extends javax.swing.JFrame {
             }
 });
        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         setVisible(false);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
     
     public static void main(String args[]) {
@@ -275,8 +275,6 @@ public class newBook extends javax.swing.JFrame {
         });
 }
 
-    
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
