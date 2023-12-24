@@ -243,7 +243,7 @@ public class login extends javax.swing.JFrame {
                             System.out.println(admin);
                             String UID = rs.getString("UID"); //Get user ID of the user
                             if (admin.equals("1")) { //If boolean value 1
-                                //Redirecting to Librarian Frame
+                               //new librarian_frame().setVisible(); //Redirecting to Librarian Frame
                                 //new librarianFrame().setVisible(true);
                             } else {
                                 //Redirecting to User Frame for that user ID
